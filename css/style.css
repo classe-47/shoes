@@ -65,6 +65,14 @@ main section {
     background-color: red;
 }
 
+#scarpa-2 {
+    background-color: green;
+}
+
+#scarpa-3 {
+    background-color: yellow
+}
+
 .scarpa-desc {
     position: absolute;
     top: 50%;
@@ -73,12 +81,35 @@ main section {
     text-align: center;
 }
 
-#scarpa-1 h2 {
+.scarpa-desc h2{
     font-size: 50px;
     color: yellow;
     text-transform: uppercase;
     font-family: 'Rubik Mono One', sans-serif;
+    color: yellow;
 }
+
+main section:last-of-type h2 {
+    color: green;
+}
+
+/* #scarpa-1 h2,
+#scarpa-2 h2 {
+    color: yellow;
+}
+
+#scarpa-3 h2 {
+    color: green;
+} */
+
+/* oppure */
+/* h2 {
+    color: yellow;
+}
+
+#scarpa-3 h2 {
+    color: green;
+} */
 
 
 
